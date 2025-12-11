@@ -1,0 +1,6 @@
+
+ngozi,90
+emeka,80
+onyi,70
+chioma,60
+bekee,50
