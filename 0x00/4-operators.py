@@ -12,7 +12,7 @@ mod = num1 % num2
 exp = num1 ** num2
 floordiv = num1 // num2
 
-print("addition ", add )
+print("addition " , add)
 print("subtraction ", sub)
 print("multiplication ", mul)
 print("division ", div)
