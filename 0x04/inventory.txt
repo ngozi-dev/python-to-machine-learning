@@ -1,9 +1,3 @@
-# Create a file called inventory.txt
-# Each line should contain an item name and quantity separated by a colon (e.g., Pen:20).
-# Write a function that reads the file and stores the data in a dictionary.
-# Add functionality to update the quantity of an item when the function is called with parameters (item, new_quantity).
-# Save the updated dictionary back into the file.
-
 pen:100
 exercisebook:180
 textbook:13
