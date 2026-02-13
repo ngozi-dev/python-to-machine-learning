@@ -1,1 +1,2 @@
 python programming is a high level programming language.
+It is used for web development, data analysis, artificial intelligence, and more.
