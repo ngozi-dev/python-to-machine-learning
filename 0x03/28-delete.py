@@ -25,3 +25,16 @@ print(person)
 # another method of deleting that delets every items in the dictionary
 person.clear()
 print(person)
+
+
+#!/usr/bin/python3
+# a module that delete item from a dictionary
+
+fruits = {
+    "mango": 70,
+    "orange" :80,
+    "pawpaw" :90
+}
+
+fruits.delete ("pawpaw")
+print(fruits)
