@@ -21,3 +21,6 @@ print(person)
 # to sperate the values from the keys
 for new_country, value in person.items():
     print(f"{new_country} -> {value}")
+
+
+    
