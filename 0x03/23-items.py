@@ -9,8 +9,9 @@ person = {
     "city": "saburi"
 }
 
-
+# to print the key with its values together
 print(person.items())
 
+# to sperate the values from the keys
 for name, value in person.items():
     print(f"{name} -> {value}")
