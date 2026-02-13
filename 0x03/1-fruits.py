@@ -4,3 +4,4 @@
 fruits = ["mango", "watermellon", "pinenaple", "guava", "pawpaw" ]
 
 print(fruits)
+
