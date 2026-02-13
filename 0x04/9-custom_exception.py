@@ -10,9 +10,13 @@
 def test_check_positive(value):
     
     try:
-        result = check_positive(value)
-        return result
-    except NegativeNumberError as e:
-        return f"Custom exception triggered: {e}"
+        if value < 0:
+            raise ValueError("Value is negative, use a positive number")
+            print(value)
+    except Exception as e:
+        print(f"Custom exception triggered: {e}")
+
+if __name__ == "__main__":
+    test_check_positive(-1)        
 
 
