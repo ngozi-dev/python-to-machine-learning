@@ -9,14 +9,12 @@ def read_inventory(filename):
             if not clean_line:
                 continue
             else:
-                item,qty_str = clean_line.split(",")
+                item,qty_str = clean_line.split(":")
                 quantity = int(qty_str)
-                inventory[item] = quantity
-                return inventory
+                inventory_dict[item] = quantity
+    return inventory_dict
 
 if __name__ == "__main__":
     result = read_inventory("inventory.txt")
     print(result)
-
-
 
