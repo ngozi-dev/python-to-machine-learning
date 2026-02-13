@@ -15,12 +15,14 @@ def read_books_file(filename):
             if not clean_line:
                 continue
             else:
-                title,author,year_str = clean_line.split(",")
+                author,title,year_str = clean_line.split(";")
                 year = int(year_str)
                 if author not in books_by_author:
                     books_by_author[author] = []
                     books_by_author[author].append((title,year))
-                    return books_by_author
+                else:
+                    books_by_author[author].append((title,year))
+    return books_by_author
 
 if __name__ == "__main__":
   result =  read_books_file("books.txt")
