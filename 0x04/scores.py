@@ -1,15 +1,17 @@
 #!/usr/bin/python3
 # a module that reads a txt file
 
-scores_dict =  {}
+
 
 def read_score(filename):
     total_score = 0
     count = 0
+    scores_dict =  {}
     with open(filename, "r") as file:
         for line in file.readlines():
             clean_line = line.strip()
             if not clean_line:
+                print(clean_line)
                 continue
             else:
                 name,score_str = clean_line.split (",")
