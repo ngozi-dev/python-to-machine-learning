@@ -10,8 +10,11 @@ def read_file(filename):
     try:
         with open(filename, "r") as file:
             contents = file.read()
-            return contents
+            print(contents)
     except FileNotFoundError:
-        return "File does not exist."
+        print("File does not exist.")
+
+if __name__ == "__main__":
+    read_file("books.txt")
     
             
