@@ -29,4 +29,12 @@ print()
 df_cleaned = df.dropna()  # Remove records with missing values
 print(df_cleaned)   # Display the cleaned DataFrame
 
+# No.5 String Operations
+print(df["name"].str.upper())  # Convert all names to uppercase and display
+
+# to display the first three characters of the names
+print(df["name"].str[:3])  # Display the first three characters of each name
+
+
+
 
