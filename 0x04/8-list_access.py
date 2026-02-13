@@ -11,6 +11,10 @@
 def get_element_at(lst, idx):
 
     try:
-        return lst[idx]
+        print(lst[idx])
     except IndexError:
-        return f"Index {idx} is out of range for a list of length {len(lst)}."
+        print(f"Index {idx} is out of range for a list of length {len(lst)}.")
+
+if __name__ == "__main__":
+    num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    get_element_at(num, 10)
