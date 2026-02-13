@@ -16,3 +16,7 @@ print(df["Emp_Salary"].head(5))
 print(df.dtypes)
 
 
+# to convert all names to uppercase
+print(df["Emp_Name"].str.upper())
+
+
