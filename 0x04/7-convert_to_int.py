@@ -6,7 +6,7 @@
 # and return a clear message explaining the issue.
 
 try:
-    return int(s)
+    print(int("s"))
 except ValueError:
-    return f"Cannot convert '{s}' to an integer. Please provide a string that represents an integer (e.g., '42', '-7')."
+    print("Cannot convert to an integer. Please provide a string that represents an integer (e.g., '42', '-7').")
 
