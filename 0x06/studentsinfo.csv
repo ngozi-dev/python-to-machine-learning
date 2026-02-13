@@ -1,0 +1,12 @@
+﻿Student ID,Student Name,NamePrefix,Age,Math ,Science ,English ,Score,Attendance (%),Overall Grade,Comments
+1,Ada Lovelace,,,92,88,95,275,96,A,Consistent performer
+2,Grace Hopper,,25,20,20,8,48,92,B+,Improving in English
+3,Alan Turing,,30,78,82,80,240,88,B,Needs practice in math
+4,Marie Curie,,32,94,89,93,,97,A,Strong across subjects
+5,Nikola Tesla,,15,10,15,30,55,85,C+,Focus on assignments
+6,Rosalind Franklin,,,15,15,15,45,90,B+,Good consistency
+7,Isaac Newton,,18,81,85,78,244,83,B,Attention to detail needed
+8,Katherine Johnson,,20,90,94,92,,95,A,Excellent problem-solving
+9,Carl Sagan,,,10,10,19,39,87,B-,Participation could improve
+10,Jane Goodall,,37,95,93,96,284,99,A,Beautiful performance
+11,Ezeaku Ngozi,,43,99,99,99,297,99,A+,Excellent.
